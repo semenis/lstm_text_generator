@@ -18,12 +18,12 @@ SAVE_RATE = 10
 SAMPLE_SENTENCES_NUMBER = 5
 SENTENCE_MIN_LEN = 5
 SENTENCE_MAX_LEN = 5000
-SENTENCE_ENDINGS = [
+SENTENCE_ENDINGS = (
     '\n',
     '. ',
     '!',
     '?',
-]
+)
 
 TEST_PREFIX = '\n'
 
@@ -34,7 +34,6 @@ BOT_LOG_CHANNEL_ID = -123
 NOT_A_TEXT_REPLIES = [
     'Is it a question?',
     "I don't understand",
-    '👀',
-    '🙄',
-    '🙈'
+    "Это вопрос?",
+    "Я не понима."
 ]
