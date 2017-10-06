@@ -13,7 +13,9 @@ from config import BOT_TOKEN, BOT_LOG_CHANNEL_ID, NOT_A_TEXT_REPLIES
 from global_variables import vocab_set
 from generator import SentenceGenerator
 
-lang_tool = language_check.LanguageTool('en-US')
+#lang_tool = language_check.LanguageTool('en-US')
+lang_tool = language_check.LanguageTool('ru-RU')
+#Адаптация к русскому языку, должна работать, вроде-бы.
 
 
 class InvalidText(Exception):
